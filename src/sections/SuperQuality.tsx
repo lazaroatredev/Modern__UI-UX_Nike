@@ -3,7 +3,7 @@ import Button from "../components/Button"
 
 const SuperQuality = () => {
   return (
-    <section id="abaout-us" className="flex justify-between gap-10 w-full max-container flex-col lg:flex-row">
+    <section id="about-us" className="flex justify-between gap-10 w-full max-container flex-col lg:flex-row">
       <div className="flex-1 flex flex-col px-4">
         <h1 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
           We Provide You
