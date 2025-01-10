@@ -1,50 +1,27 @@
-# React + TypeScript + Vite
+# Landing Page de Zapatillas Nike  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introducción  
 
-Currently, two official plugins are available:
+Esta es una landing page dedicada a presentar la icónica colección de zapatillas Nike. El sitio está diseñado para mostrar una interfaz moderna y atractiva, destacando las últimas tendencias en calzado deportivo.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Utilizadas  
 
-## Expanding the ESLint configuration
+- **React**: Para construir la interfaz de usuario de manera eficiente utilizando componentes reutilizables.  
+- **TypeScript**: Proporciona tipado estático a JavaScript, lo que mejora la calidad del código y facilita el desarrollo.  
+- **Tailwind CSS**: Utilizado para la estilización del sitio, que permite un diseño responsivo y moderno a través de clases utilitarias.  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Características  
 
-- Configure the top-level `parserOptions` property like this:
+- **Diseño Responsivo**: La página se adapta a diferentes tamaños de pantalla, mejorando la experiencia del usuario en dispositivos móviles y de escritorio.  
+- **Componentes Reutilizables**: Los elementos de la interfaz se crean como componentes de React, promoviendo la reutilización del código.  
+- **Animaciones Suaves**: Se implementan transiciones y animaciones sutiles para mejorar la interactividad de la página.  
+- **Integración de API**: Posibilidad de extender la funcionalidad con llamadas a APIs para mostrar datos en tiempo real sobre productos.  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Instalación  
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Para clonar y ejecutar esta aplicación, sigue estos pasos:  
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. Clona el repositorio : https://github.com/lazaroatredev/Modern__UI-UX_Nike
+2. Navega a la carpeta del proyecto : Modern__UI-UX_Nike
+3. Instala las dependencias: npm install
+4. Inicia el servidor de desarrollo: npm run dev
