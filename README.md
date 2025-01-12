@@ -6,9 +6,11 @@ Esta es una landing page dedicada a presentar la icónica colección de zapatill
 
 ## Tecnologías Utilizadas  
 
+- **Vite**: Herramienta de construcción que acelera el desarrollo y la implementación con su servidor de desarrollo optimizado.
 - **React**: Para construir la interfaz de usuario de manera eficiente utilizando componentes reutilizables.  
 - **TypeScript**: Proporciona tipado estático a JavaScript, lo que mejora la calidad del código y facilita el desarrollo.  
 - **Tailwind CSS**: Utilizado para la estilización del sitio, que permite un diseño responsivo y moderno a través de clases utilitarias.  
+- **ESLint**: Asegura la calidad del código detectando errores y problemas de estilo en tiempo de desarrollo.  
 
 ## Características  
 
